@@ -3,12 +3,12 @@
 ## Subject
 This is the [subject](https://github.com/ilopez-r/resources/blob/main/subjects/03_philosophers_en.pdf) for this project.
 
-## Libft Introduction
+## Introduction
 This project is a version of the [Dining Philosophers Problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 
 The goal of this project was to learn the basic principles of spinning a process. You will learn how to create threads and discover mutexes.
 
-### Rules
+## Rules
 The program takes the following arguments:
 
 `./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]`
@@ -22,7 +22,7 @@ During that time, they will need to hold two forks.
 - `time_to_sleep` (in milliseconds): The time a philosopher will spend sleeping.
 - `number_of_times_each_philosopher_must_eat` (optional argument): If all philosophers have eaten at least `number_of_times_each_philosopher_must_eat` times, the simulation stops. If not specified, the simulation stops when a philosopher dies.
 
-### Output
+## Output
 The output of the program is in the format `<timestamp> <philosopher (1 to number_of_philosophers)> <action>`
 
 Each philosopher logs the following actions:
