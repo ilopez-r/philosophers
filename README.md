@@ -34,6 +34,18 @@ Each philosopher logs the following actions:
 
 The logged messages are always in sequential order.
 
-## Installation
+## Installation and Usage
+To install and run the Philosopher project, follow these steps:
 
+Clone the project repository: 
 
+				git clone https://github.com/ilopez-r/philosophers.git
+Navigate to the project directory: 
+				
+					cd philosopher
+Compile the project using the provided Makefile: 
+
+				   		 make
+Run the program with the desired number of philosophers: 
+
+	./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]
